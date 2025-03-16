@@ -1,0 +1,25 @@
+name: ovso
+main: ovso\ovso
+version: 1.0.0
+api: [5.25.1]
+author: vP3aZy
+description: "1vs1 Plugin for your Server!"
+permissions:
+  ovso.1vs1:
+    description: Erlaubt die Nutzung des 1vs1-Hauptbefehls
+    default: true
+  ovso.1vs1.start:
+    description: Erlaubt das Starten von 1vs1-Spielen
+    default: true
+  ovso.1vs1.setposition:
+    description: Erlaubt das Setzen der Arena-Positionen
+    default: op
+  ovso.1vs1.resetposition:
+    description: Erlaubt das Zurücksetzen der Arena-Positionen
+    default: op
+  ovso.1vs1.create:
+    description: Erlaubt das Erstellen von Arenen
+    default: op
+  ovso.1vs1.setspawn:
+    description: Erlaubt das Setzen von Spawns für die Arena-Erstellung
+    default: op
